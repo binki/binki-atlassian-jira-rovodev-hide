@@ -8,8 +8,7 @@
 
 (async () => {
   while (true) {
-    const discoverRovoDevLink = await whenElementQuerySelectorAsync(document.body, 'a[href^="/rovodev"]');
-    const regionElement = discoverRovoDevLink.closest('div[role=region]');
-    regionElement.parentElement.parentElement.remove();
+    const regionElementContainingDiscoverRovoDevLink = await whenElementQuerySelectorAsync(document.body, 'div[role=region]:has(a[href^="/rovodev"])');
+    regionElementContainingDiscoverRovoDevLink.parentElement.parentElement.remove();
   }
 })();
