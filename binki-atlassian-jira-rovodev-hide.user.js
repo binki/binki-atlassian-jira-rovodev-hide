@@ -8,7 +8,7 @@
 
 (async () => {
   while (true) {
-    const regionElementContainingRovoDev = await whenElementQuerySelectorAsync(document.body, 'div[role=region]:has(a[href^="/rovodev"]), div[role=region]:has(> div[data-testid="rovodev-agents-panel.rovodev-agent-panel"])');
+    const regionElementContainingRovoDev = await whenElementQuerySelectorAsync(document.body, 'div[role=region]:has(a[href^="/rovodev"]), div[role=region]:has(> div[data-testid="rovodev-agents-panel.rovodev-agent-panel"]), div[data-testid="ai-agent-sessions.ui.disclaimer.container"]');
     regionElementContainingRovoDev.parentElement.parentElement.remove();
   }
 })();
