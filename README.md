@@ -10,4 +10,9 @@ New banner:
 
 ![“Rovo Dev” section shown between “Linked work items” and “Activity” in a Jira issue.](https://i.imgur.com/WGLxuJC.png)
 
+Also removes these buttons now in the upper right of Jira:
+
+![“Agents”](https://i.imgur.com/IT6rhmF.png)
+![coding tool](https://i.imgur.com/SfrA7v7.png)
+
 [Install](binki-atlassian-jira-rovodev-hide.user.js?raw=1)
