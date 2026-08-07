@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name binki-atlassian-jira-rovodev-hide
-// @version 1.0.4
+// @version 1.1.0
 // @homepageURL https://github.com/binki/binki-atlassian-jira-rovodev-hide
 // @match https://*.atlassian.net/*
 // @require https://github.com/binki/binki-userscript-when-element-changed-async/raw/refs/heads/master/binki-userscript-when-element-changed-async.js
